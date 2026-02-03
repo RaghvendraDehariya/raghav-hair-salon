@@ -57,20 +57,36 @@ const About = () => {
           {/* Content */}
           <div>
             <h3 className="text-3xl font-bold text-gray-900 mb-6">
-              {salonInfo.about.story}
+              Founded in 2010, Luxe Hair Studio has been transforming hair and boosting confidence for over a decade. Our passion for hair artistry and commitment to excellence has made us a trusted destination for those seeking premium hair care services.
             </h3>
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-              {salonInfo.about.mission}
+              We believe that beautiful hair is an art form. Our mission is to provide exceptional service in a welcoming environment where every client feels valued, pampered, and leaves feeling their absolute best.
             </p>
             <div className="space-y-4">
-              {salonInfo.about.values.map((value, index) => (
-                <div key={index} className="flex items-start space-x-3">
-                  <div className="mt-1">
-                    <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
-                  </div>
-                  <p className="text-gray-700">{value}</p>
+              <div className="flex items-start space-x-3">
+                <div className="mt-1">
+                  <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
                 </div>
-              ))}
+                <p className="text-gray-700">Expert craftsmanship and continuous education</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="mt-1">
+                  <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
+                </div>
+                <p className="text-gray-700">Personalized consultations for every client</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="mt-1">
+                  <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
+                </div>
+                <p className="text-gray-700">Premium products and cutting-edge techniques</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="mt-1">
+                  <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
+                </div>
+                <p className="text-gray-700">A warm, inclusive atmosphere for all</p>
+              </div>
             </div>
           </div>
         </div>
