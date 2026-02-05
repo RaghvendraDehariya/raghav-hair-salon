@@ -5,7 +5,7 @@ export const services = [
     id: 1,
     name: "Women's Haircut",
     description: "Expert cutting and styling tailored to your face shape and lifestyle",
-    price: "Starting from $65",
+    price: "Starting from ₹500",
     duration: "45-60 min",
     icon: "Scissors"
   },
@@ -13,7 +13,7 @@ export const services = [
     id: 2,
     name: "Men's Haircut",
     description: "Precision cuts with modern techniques and classic styling",
-    price: "Starting from $45",
+    price: "Starting from ₹300",
     duration: "30-45 min",
     icon: "User"
   },
@@ -21,7 +21,7 @@ export const services = [
     id: 3,
     name: "Hair Coloring",
     description: "Full color, highlights, balayage, and color correction by certified colorists",
-    price: "Starting from $120",
+    price: "Starting from ₹2,500",
     duration: "2-3 hours",
     icon: "Palette"
   },
@@ -29,7 +29,7 @@ export const services = [
     id: 4,
     name: "Styling & Blowout",
     description: "Professional styling for any occasion with long-lasting results",
-    price: "Starting from $55",
+    price: "Starting from ₹400",
     duration: "45 min",
     icon: "Wind"
   },
@@ -37,7 +37,7 @@ export const services = [
     id: 5,
     name: "Hair Treatments",
     description: "Deep conditioning, keratin treatments, and scalp therapy",
-    price: "Starting from $85",
+    price: "Starting from ₹1,500",
     duration: "60-90 min",
     icon: "Sparkles"
   },
@@ -45,7 +45,7 @@ export const services = [
     id: 6,
     name: "Bridal & Special Events",
     description: "Elegant updos and styling for your most important moments",
-    price: "Starting from $150",
+    price: "Starting from ₹3,500",
     duration: "90+ min",
     icon: "Crown"
   }
@@ -54,39 +54,21 @@ export const services = [
 export const team = [
   {
     id: 1,
-    name: "Sophia Martinez",
+    name: "Raghvendra Dehariya",
     role: "Master Stylist & Owner",
-    specialty: "Color Specialist & Balayage Expert",
-    experience: "15+ years",
-    image: "https://images.unsplash.com/photo-1638474368314-59198edde028?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoYWlyJTIwc3R5bGlzdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDE1NTY0Nnww&ixlib=rb-4.1.0&q=85",
-    bio: "Passionate about creating beautiful, wearable styles that enhance natural beauty"
+    specialty: "All Hair Services & Salon Management",
+    experience: "5+ years",
+    image: "https://customer-assets.emergentagent.com/job_elegant-salon-27/artifacts/we2228ki_411b7eb1-454e-4144-9e71-699eff811944-1_all_780.jpg",
+    bio: "Passionate about delivering quality haircuts and building client relationships"
   },
   {
     id: 2,
-    name: "Emma Chen",
-    role: "Senior Stylist",
-    specialty: "Precision Cuts & Modern Styling",
-    experience: "10+ years",
+    name: "Shiv Dehariya",
+    role: "All Rounder Stylist",
+    specialty: "Cuts, Styling & Color Services",
+    experience: "3+ years",
     image: "https://images.unsplash.com/photo-1602501025442-a4899b5e0b71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBoYWlyJTIwc3R5bGlzdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDE1NTY0Nnww&ixlib=rb-4.1.0&q=85",
-    bio: "Specializing in contemporary cuts and personalized styling consultations"
-  },
-  {
-    id: 3,
-    name: "Isabella Rodriguez",
-    role: "Color Specialist",
-    specialty: "Creative Color & Highlights",
-    experience: "8+ years",
-    image: "https://images.unsplash.com/photo-1616723355486-eac8780bfcb9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBoYWlyJTIwc3R5bGlzdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDE1NTY0Nnww&ixlib=rb-4.1.0&q=85",
-    bio: "Transforming hair with artistic color techniques and trendsetting styles"
-  },
-  {
-    id: 4,
-    name: "Ava Thompson",
-    role: "Stylist",
-    specialty: "Bridal & Special Events",
-    experience: "6+ years",
-    image: "https://images.unsplash.com/photo-1643166225426-527f536a6c4b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoYWlyJTIwc3R5bGlzdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDE1NTY0Nnww&ixlib=rb-4.1.0&q=85",
-    bio: "Creating stunning looks for life's most memorable occasions"
+    bio: "Versatile stylist skilled in multiple techniques and modern trends"
   }
 ];
 
