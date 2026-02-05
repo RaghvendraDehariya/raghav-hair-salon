@@ -5,7 +5,7 @@ export const services = [
     id: 1,
     name: "Women's Haircut",
     description: "Expert cutting and styling tailored to your face shape and lifestyle",
-    price: "Starting from ₹500",
+    price: "Starting from ₹80",
     duration: "45-60 min",
     icon: "Scissors"
   },
@@ -13,7 +13,7 @@ export const services = [
     id: 2,
     name: "Men's Haircut",
     description: "Precision cuts with modern techniques and classic styling",
-    price: "Starting from ₹300",
+    price: "Starting from ₹50",
     duration: "30-45 min",
     icon: "User"
   },
@@ -21,7 +21,7 @@ export const services = [
     id: 3,
     name: "Hair Coloring",
     description: "Full color, highlights, balayage, and color correction by certified colorists",
-    price: "Starting from ₹2,500",
+    price: "Starting from ₹150",
     duration: "2-3 hours",
     icon: "Palette"
   },
@@ -29,7 +29,7 @@ export const services = [
     id: 4,
     name: "Styling & Blowout",
     description: "Professional styling for any occasion with long-lasting results",
-    price: "Starting from ₹400",
+    price: "Starting from ₹40",
     duration: "45 min",
     icon: "Wind"
   },
@@ -37,7 +37,7 @@ export const services = [
     id: 5,
     name: "Hair Treatments",
     description: "Deep conditioning, keratin treatments, and scalp therapy",
-    price: "Starting from ₹1,500",
+    price: "Starting from ₹200",
     duration: "60-90 min",
     icon: "Sparkles"
   },
@@ -45,7 +45,7 @@ export const services = [
     id: 6,
     name: "Bridal & Special Events",
     description: "Elegant updos and styling for your most important moments",
-    price: "Starting from ₹3,500",
+    price: "Starting from ₹500",
     duration: "90+ min",
     icon: "Crown"
   }
@@ -67,7 +67,7 @@ export const team = [
     role: "All Rounder Stylist",
     specialty: "Cuts, Styling & Color Services",
     experience: "3+ years",
-    image: "https://images.unsplash.com/photo-1602501025442-a4899b5e0b71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBoYWlyJTIwc3R5bGlzdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDE1NTY0Nnww&ixlib=rb-4.1.0&q=85",
+    image: "https://customer-assets.emergentagent.com/job_elegant-salon-27/artifacts/9362bmxs_411b7eb1-454e-4144-9e71-699eff811944-1_all_780.jpg",
     bio: "Versatile stylist skilled in multiple techniques and modern trends"
   }
 ];
@@ -75,44 +75,44 @@ export const team = [
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Priya Sharma",
     rating: 5,
-    text: "Absolutely love my new color! Sophia listened to exactly what I wanted and delivered beyond my expectations. The salon is beautiful and the atmosphere is so relaxing.",
+    text: "Raghvendra bhai gave me the best haircut! He understood exactly what I wanted and delivered perfectly. Very affordable and professional service.",
     date: "2 weeks ago"
   },
   {
     id: 2,
-    name: "Michael Brown",
+    name: "Amit Kumar",
     rating: 5,
-    text: "Best haircut I've had in years. Emma really knows her craft. Professional service and great conversation. Will definitely be back!",
+    text: "Best salon in Rewa! Shiv did an amazing job with my styling. Clean place, friendly staff, and very reasonable prices. Highly recommended!",
     date: "1 month ago"
   },
   {
     id: 3,
-    name: "Jessica Lee",
+    name: "Neha Patel",
     rating: 5,
-    text: "Isabella is a color genius! My balayage looks so natural and beautiful. She took the time to explain the process and made sure I was comfortable throughout.",
+    text: "Got my hair colored here and it looks fantastic! The team is very skilled and they use good quality products. Will definitely come back!",
     date: "3 weeks ago"
   },
   {
     id: 4,
-    name: "David Martinez",
+    name: "Rahul Verma",
     rating: 5,
-    text: "Fantastic experience from start to finish. The team is friendly, skilled, and truly cares about their clients. My wife and I both go here now!",
+    text: "Excellent service at very affordable rates. Both Raghvendra and Shiv are very talented. My entire family comes here now!",
     date: "1 week ago"
   },
   {
     id: 5,
-    name: "Rachel Kim",
+    name: "Anjali Singh",
     rating: 5,
-    text: "Ava did my hair for my wedding and I couldn't have been happier. She's talented, professional, and made me feel absolutely stunning on my special day.",
+    text: "They did my bridal hairstyle and makeup. I looked absolutely beautiful on my wedding day! Thank you so much Raghav Hair Salon!",
     date: "2 months ago"
   },
   {
     id: 6,
-    name: "Amanda White",
+    name: "Deepak Tiwari",
     rating: 5,
-    text: "The keratin treatment here changed my life! My hair has never been this smooth and manageable. The salon is always clean and welcoming.",
+    text: "Very good salon with reasonable prices. Hair treatment was excellent and my hair feels so much better. Keep up the good work!",
     date: "3 weeks ago"
   }
 ];
@@ -120,39 +120,27 @@ export const testimonials = [
 export const galleryImages = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1554519515-242161756769?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMGhhaXJ8ZW58MHx8fHwxNzcwMTU1NjA5fDA&ixlib=rb-4.1.0&q=85",
-    alt: "Creative rainbow hair coloring",
-    category: "color"
-  },
-  {
-    id: 2,
     url: "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc2Fsb258ZW58MHx8fHwxNzcwMTU1NjE4fDA&ixlib=rb-4.1.0&q=85",
     alt: "Professional hair treatment",
     category: "treatment"
   },
   {
-    id: 3,
-    url: "https://images.unsplash.com/photo-1546561925-a427a021303a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwzfHxjb2xvcmZ1bCUyMGhhaXJ8ZW58MHx8fHwxNzcwMTU1NjA5fDA&ixlib=rb-4.1.0&q=85",
-    alt: "Vibrant hair styling",
-    category: "color"
-  },
-  {
-    id: 4,
+    id: 2,
     url: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxoYWlyJTIwc2Fsb258ZW58MHx8fHwxNzcwMTU1NjE4fDA&ixlib=rb-4.1.0&q=85",
     alt: "Professional blow dry styling",
     category: "styling"
   },
   {
-    id: 5,
-    url: "https://images.unsplash.com/photo-1558499720-bbfaebeeea9e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHw0fHxjb2xvcmZ1bCUyMGhhaXJ8ZW58MHx8fHwxNzcwMTU1NjA5fDA&ixlib=rb-4.1.0&q=85",
-    alt: "Purple hair color transformation",
-    category: "color"
+    id: 3,
+    url: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxzYWxvbiUyMGludGVyaW9yfGVufDB8fHx8MTc3MDE1NTU3Nnww&ixlib=rb-4.1.0&q=85",
+    alt: "Modern salon interior",
+    category: "salon"
   },
   {
-    id: 6,
-    url: "https://images.pexels.com/photos/10318045/pexels-photo-10318045.jpeg",
-    alt: "Salon professional styling",
-    category: "styling"
+    id: 4,
+    url: "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwyfHxzYWxvbiUyMGludGVyaW9yfGVufDB8fHx8MTc3MDE1NTU3Nnww&ixlib=rb-4.1.0&q=85",
+    alt: "Elegant salon setup",
+    category: "salon"
   }
 ];
 
