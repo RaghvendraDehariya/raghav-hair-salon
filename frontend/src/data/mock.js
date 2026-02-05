@@ -145,24 +145,24 @@ export const galleryImages = [
 ];
 
 export const salonInfo = {
-  name: "Luxe Hair Studio",
+  name: "Raghav Hair Salon",
   tagline: "Where Beauty Meets Artistry",
   phone: "+91 98765 43210",
-  email: "hello@luxehairstudio.com",
-  address: "123 Fashion Avenue, Suite 200",
-  city: "Mumbai, Maharashtra 400001",
+  email: "hello@raghavhairsalon.com",
+  address: "Anantpur, Rewa",
+  city: "Madhya Pradesh 486001, India",
   hours: {
     weekday: "Tuesday - Friday: 10:00 AM - 8:00 PM",
     weekend: "Saturday: 10:00 AM - 7:00 PM",
     sunday: "Sunday - Monday: Closed"
   },
   social: {
-    instagram: "https://instagram.com/luxehairstudio",
-    facebook: "https://facebook.com/luxehairstudio",
-    pinterest: "https://pinterest.com/luxehairstudio"
+    instagram: "https://instagram.com/raghavhairsalon",
+    facebook: "https://facebook.com/raghavhairsalon",
+    pinterest: "https://pinterest.com/raghavhairsalon"
   },
   about: {
-    story: "Founded in 2020, Luxe Hair Studio has been transforming hair and boosting confidence. Our passion for hair artistry and commitment to excellence has made us a trusted destination for those seeking premium hair care services.",
+    story: "Founded in 2020, Raghav Hair Salon has been transforming hair and boosting confidence. Our passion for hair artistry and commitment to excellence has made us a trusted destination for those seeking premium hair care services at affordable prices.",
     mission: "We believe that beautiful hair is an art form. Our mission is to provide exceptional service in a welcoming environment where every client feels valued, pampered, and leaves feeling their absolute best.",
     values: [
       "Expert craftsmanship and continuous education",

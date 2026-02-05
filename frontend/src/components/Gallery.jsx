@@ -15,11 +15,10 @@ const Gallery = () => {
             Our Work
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
-            Gallery of Transformations
+            Gallery
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our portfolio of stunning hairstyles, creative colors, and
-            satisfied clients
+            Explore our salon and our professional work
           </p>
           <div className="w-24 h-1 bg-amber-600 mx-auto mt-6"></div>
         </div>

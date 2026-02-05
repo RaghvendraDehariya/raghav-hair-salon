@@ -53,7 +53,7 @@ const Navigation = () => {
               }`}
               style={{ fontFamily: 'Georgia, serif' }}
             >
-              Luxe Hair Studio
+              Raghav Hair Salon
             </h1>
           </div>
 
