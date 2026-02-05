@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md rounded-full px-4 py-2 mb-6 border border-white/20">
             <Sparkles className="w-4 h-4 text-amber-400" />
             <span className="text-white text-sm font-medium">
-              Luxury Hair Care Since 2010
+              Luxury Hair Care Since 2020
             </span>
           </div>
 
@@ -75,17 +75,17 @@ const Hero = () => {
           {/* Trust Indicators */}
           <div className="mt-12 flex flex-wrap gap-8 text-white">
             <div>
-              <div className="text-3xl font-bold text-amber-400">15+</div>
+              <div className="text-3xl font-bold text-amber-400">5+</div>
               <div className="text-sm text-gray-300">Years Experience</div>
             </div>
             <div className="w-px bg-white/20"></div>
             <div>
-              <div className="text-3xl font-bold text-amber-400">10K+</div>
+              <div className="text-3xl font-bold text-amber-400">1000+</div>
               <div className="text-sm text-gray-300">Happy Clients</div>
             </div>
             <div className="w-px bg-white/20"></div>
             <div>
-              <div className="text-3xl font-bold text-amber-400">500+</div>
+              <div className="text-3xl font-bold text-amber-400">200+</div>
               <div className="text-sm text-gray-300">5-Star Reviews</div>
             </div>
           </div>
