@@ -58,7 +58,7 @@ export const team = [
     role: "Master Stylist & Owner",
     specialty: "All Hair Services & Salon Management",
     experience: "5+ years",
-    image: "https://customer-assets.emergentagent.com/job_elegant-salon-27/artifacts/we2228ki_411b7eb1-454e-4144-9e71-699eff811944-1_all_780.jpg",
+    image: "https://customer-assets.emergentagent.com/job_elegant-salon-27/artifacts/6v4htv4g_411b7eb1-454e-4144-9e71-699eff811944-1_all_1866.jpg",
     bio: "Passionate about delivering quality haircuts and building client relationships"
   },
   {
