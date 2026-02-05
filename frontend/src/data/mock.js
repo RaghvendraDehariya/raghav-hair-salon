@@ -159,13 +159,13 @@ export const galleryImages = [
 export const salonInfo = {
   name: "Luxe Hair Studio",
   tagline: "Where Beauty Meets Artistry",
-  phone: "(555) 123-4567",
+  phone: "+91 98765 43210",
   email: "hello@luxehairstudio.com",
   address: "123 Fashion Avenue, Suite 200",
-  city: "New York, NY 10001",
+  city: "Mumbai, Maharashtra 400001",
   hours: {
-    weekday: "Tuesday - Friday: 9:00 AM - 7:00 PM",
-    weekend: "Saturday: 9:00 AM - 6:00 PM",
+    weekday: "Tuesday - Friday: 10:00 AM - 8:00 PM",
+    weekend: "Saturday: 10:00 AM - 7:00 PM",
     sunday: "Sunday - Monday: Closed"
   },
   social: {
@@ -174,7 +174,7 @@ export const salonInfo = {
     pinterest: "https://pinterest.com/luxehairstudio"
   },
   about: {
-    story: "Founded in 2010, Luxe Hair Studio has been transforming hair and boosting confidence for over a decade. Our passion for hair artistry and commitment to excellence has made us a trusted destination for those seeking premium hair care services.",
+    story: "Founded in 2020, Luxe Hair Studio has been transforming hair and boosting confidence. Our passion for hair artistry and commitment to excellence has made us a trusted destination for those seeking premium hair care services.",
     mission: "We believe that beautiful hair is an art form. Our mission is to provide exceptional service in a welcoming environment where every client feels valued, pampered, and leaves feeling their absolute best.",
     values: [
       "Expert craftsmanship and continuous education",

@@ -22,7 +22,7 @@ const Team = () => {
         </div>
 
         {/* Team Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {team.map((member) => (
             <Card
               key={member.id}
