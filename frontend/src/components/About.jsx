@@ -35,7 +35,7 @@ const About = () => {
             Our Story
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
-            Crafting Beauty for Over a Decade
+            Our Journey Since 2020
           </h2>
           <div className="w-24 h-1 bg-amber-600 mx-auto"></div>
         </div>
@@ -57,35 +57,35 @@ const About = () => {
           {/* Content */}
           <div>
             <h3 className="text-3xl font-bold text-gray-900 mb-6">
-              Founded in 2010, Luxe Hair Studio has been transforming hair and boosting confidence for over a decade. Our passion for hair artistry and commitment to excellence has made us a trusted destination for those seeking premium hair care services.
+              Founded in 2020, Raghav Hair Salon has been transforming hair and boosting confidence in Rewa. Started by Raghvendra Dehariya, our passion for hair artistry and commitment to excellence has made us a trusted destination for quality hair care at affordable prices.
             </h3>
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-              We believe that beautiful hair is an art form. Our mission is to provide exceptional service in a welcoming environment where every client feels valued, pampered, and leaves feeling their absolute best.
+              At Raghav Hair Salon, we believe that beautiful hair is an art form. Our mission is to provide exceptional service in a welcoming environment where every client feels valued, pampered, and leaves feeling their absolute best. We combine modern techniques with traditional care to deliver outstanding results.
             </p>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <div className="mt-1">
                   <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
                 </div>
-                <p className="text-gray-700">Expert craftsmanship and continuous education</p>
+                <p className="text-gray-700">Expert craftsmanship and continuous learning</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="mt-1">
                   <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
                 </div>
-                <p className="text-gray-700">Personalized consultations for every client</p>
+                <p className="text-gray-700">Personalized service for every client</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="mt-1">
                   <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
                 </div>
-                <p className="text-gray-700">Premium products and cutting-edge techniques</p>
+                <p className="text-gray-700">Quality products at affordable prices</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="mt-1">
                   <div className="w-2 h-2 bg-amber-600 rounded-full"></div>
                 </div>
-                <p className="text-gray-700">A warm, inclusive atmosphere for all</p>
+                <p className="text-gray-700">A warm, friendly atmosphere for all</p>
               </div>
             </div>
           </div>
