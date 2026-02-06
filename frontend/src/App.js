@@ -10,7 +10,6 @@ import Testimonials from "@/components/Testimonials";
 import Booking from "@/components/Booking";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import DownloadProposal from "@/components/DownloadProposal";
 import { Toaster } from "@/components/ui/sonner";
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
       <Booking />
       <Contact />
       <Footer />
-      <DownloadProposal />
       <Toaster />
     </div>
   );
