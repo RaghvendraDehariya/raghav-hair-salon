@@ -25,27 +25,65 @@
         <style>
             /* Hide Emergent badge completely */
             #emergent-badge,
-            a[href*="emergent.sh"] {
+            a[href*="emergent.sh"],
+            a[id*="emergent"] {
                 display: none !important;
                 visibility: hidden !important;
                 opacity: 0 !important;
+                pointer-events: none !important;
+                position: absolute !important;
+                left: -9999px !important;
             }
         </style>
         <script>
-            // Remove Emergent badge after page loads
-            window.addEventListener('DOMContentLoaded', function() {
-                setTimeout(function() {
-                    var badge = document.getElementById('emergent-badge');
-                    if (badge) {
-                        badge.remove();
-                    }
-                    // Also remove any links to emergent.sh
-                    var emergentLinks = document.querySelectorAll('a[href*="emergent.sh"]');
-                    emergentLinks.forEach(function(link) {
-                        link.remove();
+            // Aggressive badge removal
+            (function() {
+                // Remove immediately
+                function removeBadge() {
+                    var badges = document.querySelectorAll('#emergent-badge, a[href*="emergent.sh"], a[id*="emergent"]');
+                    badges.forEach(function(badge) {
+                        if (badge && badge.parentNode) {
+                            badge.parentNode.removeChild(badge);
+                        }
                     });
+                }
+
+                // Remove on DOM ready
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', removeBadge);
+                } else {
+                    removeBadge();
+                }
+
+                // Keep removing every 100ms for first 5 seconds
+                var counter = 0;
+                var interval = setInterval(function() {
+                    removeBadge();
+                    counter++;
+                    if (counter > 50) { // Stop after 5 seconds
+                        clearInterval(interval);
+                    }
                 }, 100);
-            });
+
+                // Use MutationObserver to watch for badge being added
+                if (window.MutationObserver) {
+                    var observer = new MutationObserver(function(mutations) {
+                        mutations.forEach(function(mutation) {
+                            if (mutation.addedNodes && mutation.addedNodes.length > 0) {
+                                removeBadge();
+                            }
+                        });
+                    });
+
+                    // Start observing when DOM is ready
+                    document.addEventListener('DOMContentLoaded', function() {
+                        observer.observe(document.body, {
+                            childList: true,
+                            subtree: true
+                        });
+                    });
+                }
+            })();
         </script>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
         <!--
