@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import "@/App.css";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
@@ -10,11 +11,13 @@ import Testimonials from "@/components/Testimonials";
 import Booking from "@/components/Booking";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Portfolio from "@/components/Portfolio";
 import { Toaster } from "@/components/ui/sonner";
 
-function App() {
+// Main Salon Website
+const SalonSite = () => {
   return (
-    <div className="App">
+    <>
       <Navigation />
       <Hero />
       <About />
@@ -25,10 +28,25 @@ function App() {
       <Booking />
       <Contact />
       <Footer />
+    </>
+  );
+};
+
+function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          {/* Portfolio Page - Your Business Card */}
+          <Route path="/portfolio" element={<Portfolio />} />
+          
+          {/* Main Salon Website */}
+          <Route path="/" element={<SalonSite />} />
+        </Routes>
+      </BrowserRouter>
       <Toaster />
     </div>
   );
 }
 
 export default App;
-
