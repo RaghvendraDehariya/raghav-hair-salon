@@ -1,0 +1,30 @@
+═══════════════════════════════════════════════════════════════════════
+                    EMERGENT BADGE INFORMATION
+═══════════════════════════════════════════════════════════════════════
+
+The "Made with Emergent" badge is currently showing on your website.
+
+WHY IT'S SHOWING:
+The badge is added by Emergent's platform and is designed to be 
+persistent. This is part of Emergent's free tier service.
+
+WHEN IT WILL BE REMOVED:
+✓ The badge will be automatically removed when you deploy your website
+  to production using Emergent's deployment system
+✓ It only shows during development/testing phase
+✓ Your live production website will NOT have this badge
+
+WHAT YOU CAN DO:
+1. Continue development - the badge won't show on the live site
+2. Focus on completing your website features
+3. When ready to show clients, deploy to production
+4. The production URL will be clean without any badges
+
+PRODUCTION URL FORMAT:
+After deployment: https://your-app-name.emergent.host
+
+═══════════════════════════════════════════════════════════════════════
+NOTE: For now, you can show clients your salon website and explain that
+the badge is only visible during development. The final website they 
+receive will be completely clean and professional.
+═══════════════════════════════════════════════════════════════════════
