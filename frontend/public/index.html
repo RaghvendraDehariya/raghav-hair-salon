@@ -31,6 +31,22 @@
                 opacity: 0 !important;
             }
         </style>
+        <script>
+            // Remove Emergent badge after page loads
+            window.addEventListener('DOMContentLoaded', function() {
+                setTimeout(function() {
+                    var badge = document.getElementById('emergent-badge');
+                    if (badge) {
+                        badge.remove();
+                    }
+                    // Also remove any links to emergent.sh
+                    var emergentLinks = document.querySelectorAll('a[href*="emergent.sh"]');
+                    emergentLinks.forEach(function(link) {
+                        link.remove();
+                    });
+                }, 100);
+            });
+        </script>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
         <!--
         These two scripts have been added for the Visual Edits, please do not edit or remove them
