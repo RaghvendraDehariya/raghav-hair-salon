@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio - Rewa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: white;
+            color: #d97706;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* Services Section */
+        .services {
+            padding: 60px 20px;
+            background: #f9fafb;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #1f2937;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        .service-card h3 {
+            color: #d97706;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            padding: 60px 20px;
+        }
+
+        .portfolio h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #1f2937;
+        }
+
+        .project {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .project h3 {
+            color: #d97706;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .project-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature {
+            padding: 10px;
+            background: #fef3c7;
+            border-left: 4px solid #d97706;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            padding: 60px 20px;
+            background: #f9fafb;
+        }
+
+        .pricing h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #1f2937;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .price-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .price-card.popular {
+            border: 3px solid #d97706;
+            transform: scale(1.05);
+        }
+
+        .price-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 3em;
+            color: #d97706;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .price-features {
+            list-style: none;
+            margin: 30px 0;
+            text-align: left;
+        }
+
+        .price-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .price-features li:before {
+            content: "✓ ";
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            font-size: 1.3em;
+            margin: 20px 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .hero p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Professional Website Developer</h1>
+            <p>Creating Beautiful, Modern Websites for Local Businesses in Rewa</p>
+            <a href="tel:+919876543210" class="btn">📞 Call: +91 98765 43210</a>
+            <a href="https://wa.me/919876543210" class="btn">💬 WhatsApp</a>
+            <p style="margin-top: 20px;">📍 Anantpur, Rewa, Madhya Pradesh</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>What I Offer</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Website Development</h3>
+                    <p>Custom websites built with modern technology. Fast, responsive, and professional.</p>
+                    <p style="color: #d97706; font-weight: bold; margin-top: 15px;">Starting from ₹8,000</p>
+                </div>
+                <div class="service-card">
+                    <h3>Mobile Responsive</h3>
+                    <p>All websites work perfectly on mobile phones, tablets, and desktop computers.</p>
+                    <p style="color: #d97706; font-weight: bold; margin-top: 15px;">Included Free</p>
+                </div>
+                <div class="service-card">
+                    <h3>Fast & Modern</h3>
+                    <p>Lightning-fast loading speed with beautiful, contemporary designs.</p>
+                    <p style="color: #d97706; font-weight: bold; margin-top: 15px;">Standard Feature</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="project">
+                <span style="color: #d97706; font-weight: bold;">Beauty & Wellness</span>
+                <h3>Raghav Hair Salon</h3>
+                <p style="font-size: 1.1em; margin: 15px 0;">Professional salon website with complete features and modern design.</p>
+                
+                <div class="project-features">
+                    <div class="feature">✓ Online Booking System</div>
+                    <div class="feature">✓ Customer Review System</div>
+                    <div class="feature">✓ Photo Gallery</div>
+                    <div class="feature">✓ Google Maps Integration</div>
+                    <div class="feature">✓ Mobile Responsive</div>
+                    <div class="feature">✓ WhatsApp Integration</div>
+                </div>
+
+                <a href="http://localhost:3000" class="btn" target="_blank">🔗 View Live Website</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2>Pricing Packages</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Basic</h3>
+                    <div class="price">₹10,000</div>
+                    <p>Perfect for small businesses</p>
+                    <ul class="price-features">
+                        <li>5-6 page website</li>
+                        <li>Mobile responsive</li>
+                        <li>Contact form</li>
+                        <li>Google Maps</li>
+                        <li>Social media links</li>
+                        <li>1 month support</li>
+                    </ul>
+                    <a href="tel:+919876543210" class="btn">Get Started</a>
+                </div>
+
+                <div class="price-card popular">
+                    <div style="background: #d97706; color: white; padding: 10px; margin: -40px -40px 20px -40px; border-radius: 10px 10px 0 0;">
+                        ⭐ MOST POPULAR
+                    </div>
+                    <h3>Standard</h3>
+                    <div class="price">₹25,000</div>
+                    <p>Best value package</p>
+                    <ul class="price-features">
+                        <li>Everything in Basic</li>
+                        <li>Custom design</li>
+                        <li>Gallery & Reviews</li>
+                        <li>Booking forms</li>
+                        <li>WhatsApp integration</li>
+                        <li>3 months support</li>
+                        <li>Basic SEO</li>
+                    </ul>
+                    <a href="tel:+919876543210" class="btn">Get Started</a>
+                </div>
+
+                <div class="price-card">
+                    <h3>Premium</h3>
+                    <div class="price">₹50,000</div>
+                    <p>For growing businesses</p>
+                    <ul class="price-features">
+                        <li>Everything in Standard</li>
+                        <li>Admin panel</li>
+                        <li>Database system</li>
+                        <li>Email notifications</li>
+                        <li>Advanced features</li>
+                        <li>6 months support</li>
+                        <li>Complete training</li>
+                    </ul>
+                    <a href="tel:+919876543210" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Ready to Grow Your Business Online?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 30px;">Let's create a beautiful website for your business today!</p>
+            
+            <div class="contact-info">
+                <p>📞 Phone: +91 98765 43210</p>
+                <p>💬 WhatsApp: +91 98765 43210</p>
+                <p>📧 Email: [Your Email]</p>
+                <p>📍 Anantpur, Rewa, Madhya Pradesh</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <a href="tel:+919876543210" class="btn">Call Now</a>
+                <a href="https://wa.me/919876543210" class="btn">WhatsApp Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Web Developer Rewa. All rights reserved.</p>
+        <p>Creating professional websites for local businesses</p>
+    </footer>
+</body>
+</html>
