@@ -1,0 +1,137 @@
+═══════════════════════════════════════════════════════════════════════
+          HOW TO DEPLOY YOUR WEBSITE ON GITHUB (FREE!)
+═══════════════════════════════════════════════════════════════════════
+
+STEP 1: PUSH YOUR CODE TO GITHUB
+═══════════════════════════════════════════════════════════════════════
+
+Since you've already connected GitHub to Emergent:
+
+1. Look for "Save to GitHub" or "Push to GitHub" button in Emergent
+2. Click it
+3. Choose:
+   - Create NEW repository: "raghav-hair-salon"
+   - Make it PUBLIC (required for free GitHub Pages)
+4. Click "Push" or "Create and Push"
+
+Your code will be uploaded to: https://github.com/YOUR_USERNAME/raghav-hair-salon
+
+═══════════════════════════════════════════════════════════════════════
+STEP 2: ENABLE GITHUB PAGES (FREE HOSTING)
+═══════════════════════════════════════════════════════════════════════
+
+1. Go to your GitHub repository
+2. Click "Settings" (top right)
+3. Scroll down and click "Pages" (left sidebar)
+4. Under "Source":
+   - Select "Deploy from a branch"
+   - Branch: Select "main" or "master"
+   - Folder: Select "/ (root)"
+5. Click "Save"
+
+Wait 2-5 minutes...
+
+Your website will be live at:
+https://YOUR_USERNAME.github.io/raghav-hair-salon/
+
+═══════════════════════════════════════════════════════════════════════
+STEP 3: BUILD YOUR WEBSITE FOR GITHUB PAGES
+═══════════════════════════════════════════════════════════════════════
+
+Your React website needs to be built first. Run these commands:
+
+```bash
+cd /app/frontend
+yarn build
+```
+
+This creates a "build" folder with your ready-to-deploy website.
+
+═══════════════════════════════════════════════════════════════════════
+STEP 4: CONFIGURE FOR GITHUB PAGES
+═══════════════════════════════════════════════════════════════════════
+
+Add this to your package.json in frontend folder:
+
+```json
+"homepage": "https://YOUR_USERNAME.github.io/raghav-hair-salon",
+```
+
+Replace YOUR_USERNAME with your actual GitHub username!
+
+═══════════════════════════════════════════════════════════════════════
+IMPORTANT NOTES
+═══════════════════════════════════════════════════════════════════════
+
+✅ WORKS:
+- All your salon website pages
+- Images, styling, forms
+- Customer review form (frontend only)
+- Gallery, testimonials, team sections
+- Portfolio page
+
+⚠️ LIMITATIONS:
+- Booking form won't save to database (no backend)
+- Reviews won't be saved permanently
+- It's FRONTEND ONLY (no MongoDB, no FastAPI)
+
+💡 SOLUTION:
+For now, this is perfect for your portfolio! When clients book:
+- They can call/WhatsApp you directly
+- You can collect form data via email services later
+
+═══════════════════════════════════════════════════════════════════════
+ALTERNATIVE: DEPLOY FULL-STACK TO OTHER PLATFORMS
+═══════════════════════════════════════════════════════════════════════
+
+If you need backend (booking/reviews to save):
+
+FREE OPTIONS:
+1. **Vercel** (Frontend) + **Railway** (Backend + MongoDB)
+2. **Netlify** (Frontend) + **Render** (Backend)
+3. **Vercel** for everything (with serverless functions)
+
+PAID BUT CHEAP:
+- **Hostinger**: ₹79/month (full hosting)
+- **DigitalOcean**: $5/month (~₹420/month)
+
+═══════════════════════════════════════════════════════════════════════
+QUICK START COMMANDS
+═══════════════════════════════════════════════════════════════════════
+
+Run these in Emergent terminal:
+
+# Step 1: Build the website
+cd /app/frontend
+yarn build
+
+# Step 2: The build folder is ready!
+# Now push to GitHub using Emergent's button
+
+# Step 3: Enable GitHub Pages in GitHub settings
+# Your site will be live in 5 minutes!
+
+═══════════════════════════════════════════════════════════════════════
+YOUR WEBSITE URL
+═══════════════════════════════════════════════════════════════════════
+
+After setup, your salon website will be at:
+https://YOUR_USERNAME.github.io/raghav-hair-salon/
+
+✅ 100% FREE
+✅ No "Made with Emergent" badge
+✅ Professional URL
+✅ Can show to clients immediately
+
+═══════════════════════════════════════════════════════════════════════
+NEXT STEPS
+═══════════════════════════════════════════════════════════════════════
+
+1. Push code to GitHub (use Emergent's button)
+2. Run "yarn build" in /app/frontend
+3. Enable GitHub Pages in repository settings
+4. Share your live website with clients!
+
+Good luck with your web development business! 🚀
+
+═══════════════════════════════════════════════════════════════════════
